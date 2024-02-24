@@ -1,18 +1,103 @@
-.App{
-    width: 40%;
-    margin: 2em auto;
-    background-color: #394049;
-    border-radius: 5px;
-    color: #fff;
+.App {
+  width: 40%;
+  margin: 2em auto;
+  background-color: #394049;
+  border-radius: 5px;
+  color: #fff;
 }
 
-.todo-header{
-    padding: 0.5em;
-    border-bottom: 1px solid #2C3035;
-    text-align: center;
-
+.todo-header {
+  padding: 0.5em;
+  border-bottom: 1px solid #2C3035;
+  text-align: center;
 }
 
-.todo-header h1{
-    margin: 0;
+.todo-header h1 {
+  margin: 0;
+}
+
+.form-todo {
+  padding: 1em;
+  margin: 0 2em;
+  border-bottom: 1px solid #2C3035;
+}
+
+.form-todo h2,
+.list-todo h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-control label {
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-bottom: 0.4em;
+}
+
+.form-control input {
+  border: 1px solid #222;
+  border-radius: 2px;
+  background-color: #2C3035;
+  padding: 0.5em;
+  color: #dfdfdf;
+}
+
+input[type='submit'] {
+  background-color: #333;
+  color: #eee;
+  display: block;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 2em;
+  cursor: pointer;
+}
+
+.list-todo {
+  margin-top: 2em;
+}
+
+.todo {
+  padding: 1em;
+  border-bottom: 1px solid #2C3035;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo h3 {
+  margin: 0;
+}
+
+.todo-done {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.todo-icon {
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.todo-icon:hover {
+  color: #FF5722; /* Cor laranja ao passar o mouse */
+}
+
+.todo-icon-done {
+  margin-right: 1em;
+  color: #4CAF50; /* Cor verde */
+  cursor: pointer;
+}
+
+.todo-icon-done:hover {
+  color: #388E3C; }
+.trash-icon{
+    cursor: pointer;
+}
+.trash-icon:hover {
+  color: #FF5722; /* Cor laranja ao passar o mouse */
 }
