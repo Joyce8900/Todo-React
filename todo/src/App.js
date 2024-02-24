@@ -14,7 +14,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const todo = {
-      id: Math.random(),
+      id: Math.floor(),
       title,
       time,
       done: false,
