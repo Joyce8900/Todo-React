@@ -26,7 +26,7 @@ function App() {
   }, [])
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const id = Math.random(); 
+    const id = Math.floor(); 
     const todo = {
       id: id,
       title,
