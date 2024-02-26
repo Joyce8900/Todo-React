@@ -13,7 +13,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const id = Math.floor()
+    const id = Math.floor();
     const todo = {
       id: id,
       title,
