@@ -26,7 +26,9 @@ function App() {
   }, [])
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     const id = Math.floor(Math.random() * 10000 / 65 ^3); 
+
     const todo = {
       id: id,
       title,
